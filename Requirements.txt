@@ -1,0 +1,20 @@
+The basic system requirements are: 
+
+Python 3.5–3.7
+pip 19.0 or later (requires manylinux2010 support)
+Ubuntu 16.04 or later (64-bit)
+macOS 10.12.6 (Sierra) or later (64-bit) (no GPU support)
+Windows 7 or later (64-bit) (Python 3 only)
+
+Further, you will require a high performance python IDE that can handle neural network computations.
+
+The libraries required are:
+
+pandas_datareader
+pandas
+matplotlib
+math
+datetime
+sklearn
+tensorflow keras
+lime
