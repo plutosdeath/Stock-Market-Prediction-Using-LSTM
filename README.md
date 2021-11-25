@@ -75,6 +75,14 @@ Here is a comparison of actual price of the stock for 23rd November 2021 and the
 
 (Left: Price of TTM on Yahoo Finance for 24th November, Right: Predicted price of TTM for 25th November)
 
+5. Explainable AI
+
+--> Explainable AI is becoming a very important aspect of machine learning. It helps us interpret the model's decisions.
+
+--> To explain a model making predictions based on a time series data is extremely difficult.
+
+--> Possible candidate: LIME - Local Interpretable Model-agnostic Explanations. 
+
 4. Installation Guide and Platform Details
 
 The entirety of our project was written and compiled in python. We used Sublime text as our IDE but any powerful python IDE should work.
