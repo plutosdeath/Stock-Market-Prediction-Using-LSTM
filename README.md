@@ -35,6 +35,10 @@ For testing, we created another dataset from 1st Jan 2020 up until now and conca
 
 Finally, we predict the stock price for the next day by feeding an input vector to the model and since we used only 1 dense layer, the output is a single value which essentially is the prediction. Before outputting our prediction, however, we inverse transformed the scaled value. 
 
+--> 30 Days Forecast
+
+We tried to create a 30 day forecast of the stock price by feeding the predicted values back into the dataset. The while loop iterates for 30 times appending the predicted values to the data. 
+
 3. Results
 
 As can be seen from the following performance plots on our testing data, the model is working quite satisfactorily:
